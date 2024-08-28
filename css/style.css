@@ -1,0 +1,180 @@
+
+/* Fonts Connect */
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('.//fonts/poppins-regular.ttf');
+}
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('.//fonts/poppins-medium.ttf');
+}
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('.//fonts/poppins-bold.ttf');
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url('.//fonts/roboto-regular.ttf');
+}
+
+/* CSS Variable Declare */
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --red: #fd511a;
+    --green: #21b573;
+
+    --pop: "Poppins", sans-serif;
+    --rob: "Roboto", sans-serif;
+}
+
+/* Common Start */
+body{
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+/* Heading Start */
+.menu ul li{
+    margin: 0 20px;
+}
+.menu ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+}
+.menu ul li a:hover{
+    color: var(--red);
+}
+.btn-sign{
+    padding: 12px 25px;
+}
+.btn-common{
+    font-family: var(--rob);
+    font-size: 16px;
+    background-color: var(--green);
+    border-radius: 33px;
+    color: var(--white);
+}
+.btn-common:hover{
+    background-color: var(--red);
+    color: var(--white);
+    transition: 0.2s linear;
+}
+.nt:focus {
+    box-shadow: none;
+}
+
+/* Banner start */
+#banner{
+    padding: 20px 0 65px;
+}
+.b_text{
+    padding-right: 80px;
+}
+.bp1{
+    color: var(--red);
+}
+.bh1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    padding: 10px 0 20px;
+    color: var(--black);
+}
+.bh1 span{
+    color: var(--green);
+}
+.bp2{
+    line-height: 36px;
+    padding-bottom: 15px;
+}
+.btn-start{
+    padding: 12px 35px;
+}
+.b_img{}
+
+/* Overview Start */
+.c_padding{
+    padding-bottom: 100px;
+}
+.c_icon{
+    margin : 40px 0 0;
+    padding: 65px 0 55px ;
+    background-color: #e6f7e6; 
+    border-radius: 10px;
+    transition: .33s;
+}
+.c_icon:hover{
+    background-color: white; 
+    box-shadow: 0px 20px 40px 0px #0000001A;
+}
+.c_icon img{}
+.c_icon h2{
+    margin: 22px 0 5px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+/* Onilne Courses start */
+#courses{}
+.container1 h1{
+    padding-bottom: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--black);
+}
+.box{
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0px 5px 5px 0px #21b573;
+}
+.box h2{
+    padding: 20px 0 3px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--black);
+}
+.btn-course{
+    padding: 8px 30px;
+    margin: 20px 0 35px;
+}
+.sc img{
+    padding-left: 10px;
+}
+
+
+/* Testimonial Start */
+.container_t{
+    width: 75%;
+}
+.test img{
+    margin-left: 90px;
+    float: right;
+}
+.test p{
+    padding: 20px 40px 0 10px;
+}
+
+/* Footer start */
+.f_box{
+    padding: 50px 0 0;
+}
+.f_text p{
+    padding: 35px 0 0;
+    line-height: 30px;
+}
+.f_box h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.f-1 ul li{
+    line-height: 30px;
+}
+.footer-2 p{
+    padding: 76px 0 30px;
+}

@@ -1,0 +1,336 @@
+/* Extra Small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+    /* header */
+    .logo{
+        width: 180px !important;
+    }
+    .nt{
+        padding: 4px 5px; 
+    }
+    .nti{
+        width: 1em; 
+        height: 1em; 
+    }
+    .c_container{
+        padding-top: 6px;
+    }
+
+    /* banner */
+    #banner{
+        padding: 0 0 25px;
+    }
+    .b_text{
+        text-align: center;
+        padding: 0 10px 0;
+    }
+    .bh1{
+        font-size: 28px;
+        line-height: 33px;
+        padding: 5px 5px 10px;
+    }
+    .bp2{
+        line-height: 20px;
+        padding-bottom: 0;
+    }
+    .b_img{
+        padding: 0 30px 20px;
+    }
+    .btn-start{
+        padding: 8px 28px;
+    }
+
+    /* overview */
+    .c_padding{
+        padding-bottom: 50px;
+    }
+    .c_icon{
+        margin : 15px 0 0;
+        padding: 30px 0 25px ;
+    }
+    .c_icon img{
+        width: 48px;
+        height: 68px;
+    }
+    .c_icon h2{
+        margin: 13px 0 0;
+        font-size: 18px;
+    }
+    .c_icon p{
+        font-size: 15px;
+    }
+
+    /* Online Courses start */
+    .container1 h1{
+        font-size: 25px;
+        padding-bottom: 25px;
+    }
+    .box{
+        padding: 10px;
+        margin: 0 0px 12px;
+    }
+    .box_img img{
+        width: 425px;
+        height: 200px;
+    }
+    .box h2{
+        padding: 8px 0 0;
+        font-size: 18px;
+    }
+    .btn-course{
+        padding: 5px 13px;
+        margin: 8px 0 10px;
+    }
+    .sc img{
+        padding-left: 10px;
+    }
+    .sc img:not(:last-child) {
+        margin-right: 0px;
+    }
+    .sc p{
+        font-size: 15px;
+    }
+
+     /* Testimonial start */
+    .container_t{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .test img{
+        margin: 0 auto;
+        float: none;
+    }
+    .test p{
+        padding: 20px 20px 10px;
+        text-align: center;
+    }
+
+    /* Footer start */
+    .f_text p{
+        padding: 10px 30px 12px;
+        line-height: 22px;
+    }
+    .f_box h2{
+        font-size: 18px;
+    }
+    .f-1{
+        padding: 10px 0;
+    }
+    .f-1 ul li{
+        line-height: 22px;
+    } 
+    .footer-2 p{
+        padding: 27px 0 20px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header */
+    .logo{
+        width: 190px !important;
+    }
+
+    /* banner */
+    #banner{
+        padding: 0 0 35px;
+    }
+    .b_text{
+        text-align: center;  
+        padding: 0 40px;
+    } 
+    .bh1 {
+        font-size: 36px;
+        line-height: 45px;
+        padding: 8px 50px 10px;
+    }
+    .bp2{
+        line-height: 22px;
+        padding-bottom: 5px;
+    }
+    .b_img{
+        padding: 0 70px 30px;
+    }
+
+    /* overview */
+    .c_padding{
+        padding-bottom: 60px;
+    }
+    .c_icon{
+        margin : 20px 0 0;
+        padding: 40px 0 35px ;
+    }
+    .c_icon img{
+        width: 56px;
+        height: 75px;
+    }
+    .c_icon h2{
+        margin: 18px 0 3px;
+        font-size: 22px;
+    }
+
+    /* Online Courses start */
+    .container1 h1{
+        font-size: 33px;
+        padding-bottom: 30px;
+    }
+    .box{
+        padding: 15px;
+        margin: 0 90px 15px;
+    }
+    .box_img img{
+        width: 455px;
+        height: 250px;
+    }
+    .box h2{
+        padding: 13px 0 0;
+        font-size: 19px;
+    }
+    .btn-course{
+        padding: 5px 20px;
+        margin: 10px 0 15px;
+    }
+    .sc img{
+        margin-left: 10px;
+    }
+    .sc img:not(:last-child) {
+        margin-right: 0px;
+    }
+    .sc p{
+        font-size: 15px;
+    }
+
+    /* Testimonial start */
+    .container_t{
+        width: 100%;
+    }
+    .test p{
+        padding: 0px 60px 0 10px;
+        font-size: 15px;
+    }
+
+    /* Footer start */
+    .f_text p{
+        padding: 20px 60px 10px;
+        line-height: 25px;
+    }
+    .f_box h2{
+        font-size: 20px;
+    }
+    .f-1 ul li{
+        line-height: 25px;
+    } 
+    .footer-2 p{
+        padding: 40px 0 20px;
+    }
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #banner{
+        padding: 0 0 45px;
+    }
+    .b_text{
+        text-align: center;
+        padding: 0 120px;
+    }
+    .bh1 {
+        line-height: 50px;
+        padding: 15px 0 18px;
+    }
+    .bp2{
+        line-height: 25px;
+        padding-bottom: 5px;
+    }
+    .b_img{
+        padding: 0 100px 40px;
+    }
+
+    /* overview */
+    .c_padding{
+        padding-bottom: 70px;
+    }
+    .c_icon{
+        margin : 30px 0 0;
+        padding: 50px 0 45px ;
+    }
+    .c_icon h2{
+        margin: 22px 0 5px;
+    }
+
+    /* Online Courses start */
+    .box{
+        padding: 15px;
+        margin: 0 120px 20px;
+    }
+    .box_img img{
+        width: 466px;
+        height: 270px;
+    }
+    .box h2{
+    padding: 17px 0 2px;
+    font-size: 21px;
+    }
+    .btn-course{
+        padding: 5px 20px;
+        margin: 15px 0 25px;
+    }
+    .sc img{
+        margin-left: 10px;
+    }
+
+    /* Testimonial start */
+    .container_t{
+        width: 90%;
+    }
+    .test p{
+        padding: 0px 60px 0 10px;
+    }
+
+    /* Footer start */
+    .f_box{
+        padding: 40px 0 0;
+    }
+    .f_text p{
+        padding: 28px 0 0;
+        line-height: 25px;
+    }
+    .f-1 ul li{
+        line-height: 25px;
+    }
+    .footer-2 p{
+        padding: 55px 0 25px;
+        font-size: 15px;
+    }
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* Online courses start */
+    .sc img{
+        padding-left: 0px;
+    }
+    .sc img:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    /* Testimonial start */
+    .test p{
+        padding: 5px 40px 0 10px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+    /* testimonial start */
+    .test p{
+        padding: 15px 40px 0 10px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }

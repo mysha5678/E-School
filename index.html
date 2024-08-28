@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="E-School">
+    <meta name="description" content="The school website provides important information for students, parents, and teachers. Visitors can find details about upcoming events, school policies, and contact information. It is a valuable resource for staying informed about school news and announcements. The website is user-friendly and easy to navigate, making it convenient to access necessary information.">
+    <meta name="keywords" content="school, e-school, website, education, study, software, engineering, web development, content">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="2 days">
+    <meta name="author" content="Mysha Mahzabin">
+    <title>E-School</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    </head>
+    <body>
+<!-- header start -->
+        <section id="c_header">
+            <nav class="navbar navbar-expand-lg" style="background-color: #e6f7e6">
+                <div class="container c_container">
+<!-- header logo -->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" alt="Logo" class="w-100 py-lg-4 py-sm-2 logo">
+                    </a>
+                    <button class="navbar-toggler nt" type="button" data-bs-toggle="collapse" data-bs-target="#nvc" aria-controls="navbarNav" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon nti"></span>
+                    </button>
+<!-- header menu start -->
+                    <div class="collapse navbar-collapse menu" id="nvc">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"> <a class="nav-link" href="#">Books</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#courses">Courses</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#footer">Others</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#overview">Blog</a></li>
+                        </ul>
+                        <button type="button" class="btn btn-sign btn-common" data-bs-toggle="modal" data-bs-target="#input-modal1">Sign in
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </section>
+<!-- header end -->
+<!-- modal-1 start -->
+<main class="h_button">
+    <div class="modal" tabindex="-1" id="input-modal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign in</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+<!-- modal-1 body -->
+                <div class="modal-body">
+                    <form action="#">
+                        <div class="row g-2">
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email1" placeholder="name@example.com">
+                                    <label for="email1">Email address</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="pass1" placeholder="password">
+                                    <label for="pass1">Password</label>
+                                    <div id="pass1" class="form-text">Your password must be 8-20 characters.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+<!-- Modal-1 footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-common btn-sign" data-bs-toggle="modal" data-bs-target="#input-modal1">Reset</button>
+                <button type="button" class="btn btn-common btn-sign" data-bs-toggle="modal" data-bs-target="#input-modal1">Submit</button>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- Modal-1 end -->
+<!--modal-2 start-->
+        <main class="h_button">
+            <div class="modal" tabindex="-1" id="input-modal2">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Buy Online Course</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+<!-- modal-2 body -->
+                        <div class="modal-body">
+                            <form action="#">
+                                <div class="row g-2">
+                                    <div class="col-sm-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email1" placeholder="name@example.com">
+                                            <label for="email1">Email address</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-floating">
+                                            <select id="select2" class="form-select" aria-label="Default select example">
+                                                <option>Home Economics - $120</option>
+                                                <option>Modern Psychology - $150</option>
+                                                <option>Web Design - $230</option>
+                                            </select>
+                                            <label for="select2">Choose a course:</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+<!-- Modal-2 footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-common btn-sign" data-bs-toggle="modal" data-bs-target="#input-modal2">Reset</button>
+                        <button type="button" class="btn btn-common btn-sign" data-bs-toggle="modal" data-bs-target="#input-modal2">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+<!-- Modal-2 end -->
+<!-- Banner start  -->
+        <section id="banner" style="background-color: #e6f7e6">
+            <div class="container">
+                <div class="row">
+<!-- Banner text -->
+                    <div class="col-xl-5 col-lg-6 order-2 order-lg-1 b_text">
+                        <p class="bp1 mb-0">Are you ready to Learn?</p>
+                        <h1 class="bh1 mb-0">Learn With fun on <span>any schedule</span></h1>
+                        <p class="bp2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+                        <button type="button" class="btn btn-start btn-common" data-bs-toggle="modal" data-bs-target="#input-modal1">Get Started</a></button>
+                        </div>
+<!-- Banner image -->
+                    <div class="offset-xl-1 col-xl-6 col-lg-6 order-1 order-lg-2 b_img">
+                        <img src="images/banner.png" alt="e-school" class="w-100">
+                    </div>
+                </div>
+            </div> 
+        </section>
+<!-- Banner end  -->
+        <section id="overview">
+            <div class="container c_padding">
+                <di class="row">
+                    <div class="col-lg-3 col-6" >
+                        <div class="c_icon text-center">
+                            <div class="icon_img mx-auto">
+                                <img src="images/icon1.png" alt="E-School" class="img-fluid">
+                            </div>
+                            <h2>1500+ Topic</h2>
+                            <p class="mb-0">Learn Anythings</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="c_icon text-center">
+                            <div class="icon_img  mx-auto">
+                                <img src="images/icon2.png" alt="E-School" class="img-fluid">
+                            </div>
+                            <h2>1800+ Students</h2>
+                            <p class="mb-0">Learn Anythings</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" >
+                        <div class="c_icon text-center">
+                            <div class="icon_img  mx-auto">
+                                <img src="images/icon3.png" alt="E-School" class="img-fluid">
+                            </div>
+                            <h2>9K+ Test Token</h2>
+                            <p class="mb-0">Learn Anythings</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" >
+                        <div class="c_icon text-center">
+                            <div class="icon_img  mx-auto">
+                                <img src="images/icon4.png" alt="E-School" class="img-fluid">
+                            </div>
+                            <h2>2000+ Student</h2>
+                            <p class="mb-0">Learn Anythings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- Online Courses Start -->
+        <section id="courses">
+            <div class="container1">
+                <h1 class="text-center mb-0">Online Courses</h1>
+            <div class="container c_padding container2">
+                <div class="row">
+<!-- Course-1: Home Economics start -->
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="box">
+                            <div class="box_img mx-auto">
+                                <img src="images/c1.jpg" alt="E-School" class="img-fluid">
+                            </div>
+                            <div class="box_text">
+                                <h2 class="mb-0">Home Economics</h2>
+                                <p class="mb-0">Designation</p>
+                            <button type="button" class="btn btn-course btn-common" data-bs-toggle="modal" data-bs-target="#input-modal2">Buy Course</button>
+<!-- Sub container start  -->
+                            <div class="sub-container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-7 px-0">
+                                        <div class="sc list-inline">
+                                            <img src="images/calendar.png" alt="Calendar" class="img-fluid list-inline-item">
+                                            <p class="list-inline-item mb-0"> Start 20  April, 2024</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-5 px-0">
+                                        <div class="sc list-inline">
+                                            <img src="images/people.png" alt="E-School" class="img-fluid list-inline-item">
+                                            <p class="list-inline-item mb-0">55 seats</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<!-- Sub container end  -->
+                            </div>
+                        </div>
+                    </div>
+<!-- Course-2: Modern Psychology start -->
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="box">
+                            <div class="box_img mx-auto">
+                                <img src="images/c2.jpg" alt="E-School" class="img-fluid">
+                            </div>
+                            <div class="box_text">
+                                <h2 class="mb-0">Modern Psychology</h2>
+                                <p class="mb-0">Designation</p>
+                            <button type="button" class="btn btn-course btn-common" data-bs-toggle="modal" data-bs-target="#input-modal2">Buy Course</button>
+<!-- Sub container start  -->
+                            <div class="sub-container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-7 px-0">
+                                        <div class="sc list-inline">
+                                            <img src="images/calendar.png" alt="Calendar" class="img-fluid  list-inline-item">
+                                            <p class="list-inline-item mb-0">Start 20  May, 2025</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-5 px-0">
+                                        <div class="sc list-inline">
+                                            <img src="images/people.png" alt="E-School" class="img-fluid  list-inline-item">
+                                            <p class="list-inline-item mb-0">80 seats</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<!-- Sub container end  -->
+                            </div>
+                        </div>
+                    </div>
+<!-- Course-3: Web Design start -->
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="box">
+                            <div class="box_img mx-auto">
+                                <img src="images/c3.jpg" alt="E-School" class="img-fluid">
+                            </div>
+                            <div class="box_text">
+                                <h2 class="mb-0">Web Design</h2>
+                                <p class="mb-0">Designation</p>
+                            <button type="button" class="btn btn-course btn-common" data-bs-toggle="modal" data-bs-target="#input-modal2">Buy Course</button>
+<!-- Sub container start  -->
+                            <div class="sub-container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-7 px-0">
+                                        <div class="sc list-inline">
+                                            <img src="images/calendar.png" alt="Calendar" class="img-fluid  list-inline-item">
+                                            <p class="list-inline-item mb-0">Start 29  April, 2025</p>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-lg-4 col-5 px-0">
+                                        <div class="sc list-inline">
+                                            <img src="images/people.png" alt="E-School" class="img-fluid  list-inline-item">
+                                            <p class="list-inline-item mb-0">45 seats</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<!-- Sub container end  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+<!-- Online Courses end -->
+<!-- Testimonial start -->
+        <section id="testimonial">
+            <div class="container1">
+                <h1 class="text-center mb-0">Testimonial</h1>
+            </div>
+            <div class="container_t c_padding mx-auto">
+                <div id="cei" class="carousel carousel-dark slide"  data-bs-ride="carousel">
+<!-- Testimonial-1 start -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="4000">
+                            <div class="container">
+                                <div class="row test">
+                                    <div class="col-lg-1"></div>
+                                    <div class="col-lg-2 col-sm-4">
+                                        <img src="images/mentor1.jpg" class="d-block img-fluid rounded-circle" alt="E-School">
+                                    </div>
+                                    <div class="col-lg-8 col-sm-8">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but themajority have suffered alteration in some form, by injected humour,or randomised words which don't look even slightly believable.
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+<!-- Testimonial-2 start -->
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="container">
+                                <div class="row test">
+                                    <div class="col-lg-1"></div>
+                                    <div class="col-lg-2 col-sm-4">
+                                        <img src="images/mentor2.jpg" class="d-block img-fluid rounded-circle" alt="E-School">
+                                    </div>
+                                    <div class="col-lg-8 col-sm-8">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but themajority have suffered alteration in some form, by injected humour,or randomised words which don't look even slightly believable.
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+<!-- Testimonial-3 start -->
+                        <div class="carousel-item"  data-bs-interval="2000">
+                            <div class="container">
+                                <div class="row test">
+                                    <div class="col-lg-1"></div>
+                                    <div class="col-lg-2 col-sm-4">
+                                        <img src="images/mentor3.jpg" class="d-block img-fluid rounded-circle" alt="E-School">
+                                    </div>
+                                    <div class="col-lg-8 col-sm-8">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but themajority have suffered alteration in some form, by injected humour,or randomised words which don't look even slightly believable.
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- Testimony carousel buttons start -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cei" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cei" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+<!-- Testimonial end -->
+<!-- Footer start -->
+<section id="footer" class=" text-bg-dark text-light">
+    <div class="container">
+        <div class="row f_box text-center">
+<!-- Footer paragraph -->
+            <div class="col-md-3 col-sm-12 f_text">
+                <p class="mb-0">Millions of people of all ages and from around the 
+                    world are improving their lives with us.</p>
+            </div>
+<!-- List-1 start -->
+            <div class="col-md-3 col-sm-4 f-1">
+                <h2>Courses</h2>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none text-light">Graphic Design</a></li>
+                    <li><a href="#" class="text-decoration-none text-light">Web Design</a></li>
+                    <li><a href="#" class="text-decoration-none text-light">Business</a></li>
+                    <li><a href="#" class="text-decoration-none text-light">Marketing</a></li>
+                    <li><a href="#" class="text-decoration-none text-light">Engineering</a></li>
+                </ul>
+            </div>
+<!-- List-2 start-->
+            <div class="col-md-3 col-sm-4 f-1">
+                <h2>Useful Links</h2>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none text-light">Guides</a></li>
+                    <li><a href="#" class="text-decoration-none text-light">Blog</a></li>
+                    <li><a href="#" class="text-decoration-none text-light">Shop</a></li>
+                    <li><a href="#" class="text-decoration-none text-light">Roadmap</a></li>
+                    <li><a href="#" class="text-decoration-none text-light">Careers</a></li>
+                </ul>
+            </div>
+<!-- List-3 start-->
+            <div class="col-md-3 col-sm-4 f-1">
+                <h2>Company</h2>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none text-light">About us</a></li>
+                    <li><a href="#" class="text-decoration-none text-light">Follow us</a></li>
+                    <li><a href="#" class="text-decoration-none text-light">Administrator</a></li>
+                    <li><a href="#" class="text-decoration-none text-light">Contact</a></li>
+                    <li><a href="#" class="text-decoration-none text-light">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-2">
+            <p class="text-center">Copyright &copy 2024 myshakib.com</p>
+        </div>
+    </div>
+</section>
+<!-- Footer End -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+</html>
